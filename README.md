@@ -14,14 +14,34 @@ to the lecture that it's related to. Sample data files will also be included.
 - Recommended: Have [Visual Studio Code](https://code.visualstudio.com/) installed
 	- Browse the VSCode extensions library for anything that catches your fancy
 
+Once you install the above pre-requisites, clone this repo:
+
+```sh
+git clone git@github.com:ChristianAyala/CSE-3353.git
+```
+
+This will create a folder called CSE-3353 in your current directory,
+so be sure you run that command in a proper useful place.
+
+Be sure you run the following command to make sure your local repository
+is up to date with any changes I may have pushed up:
+
+```sh
+git pull origin master
+```
+
 ## Running the code
 
 Each code sample will contain a package.json file, which will outline any dependencies
 needed for the code to run. To run the snippets:
 
-```npm install```
+```sh
+npm install
+```
 
-```npm start```
+```sh
+npm start
+```
 
 The first command will only need to be run once, and the second command will be
 configured to run the correct script. For files that require some outside data

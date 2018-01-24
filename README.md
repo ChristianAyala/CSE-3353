@@ -36,20 +36,48 @@ Each code sample will contain a package.json file, which will outline any depend
 needed for the code to run. To run the snippets:
 
 ```sh
+cd [folder]
 npm install
-```
-
-```sh
 npm start
 ```
 
-The first command will only need to be run once, and the second command will be
+The install command will only need to be run once, and the second command will be
 configured to run the correct script. For files that require some outside data
 (like additional data files), you will have to update the filename in the script
 or the package.json file, where appropriate. If a file name is used in the code,
 it will be at or near the top of the file.
 
 All output will be logged to the terminal.
+
+## Code Linting
+
+There is a root `package.json` file that applies a "linter" to all of the
+snippets in the repository. A linter runs through your code and makes sure
+that it follows a certain set of style guides and programming conventions.
+In some cases, a linter can be pedantic; in most cases, it can actually
+help find potential bugs that are unique to an interpreted language like
+JavaScript by calling out errors before runtime.
+
+Visual Studio Code will automatically apply the linter as you code in real
+time. All you have to do (including the initial clone step):
+
+```sh
+git clone git@github.com:ChristianAyala/CSE-3353.git
+cd CSE-3353
+npm install
+```
+
+This will install all the necessary linter packages.
+
+It is recommended that you use this in your own projects. To do so:
+
+```sh
+npm init
+npm install --only=dev eslint eslint-config-google
+```
+
+The first command will have you fill out a few fields related to your project.
+The second will install the linter and the Google linter configuration.
 
 ## Contributing
 

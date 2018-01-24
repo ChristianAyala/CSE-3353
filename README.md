@@ -77,7 +77,10 @@ npm install --only=dev eslint eslint-config-google
 ```
 
 The first command will have you fill out a few fields related to your project.
-The second will install the linter and the Google linter configuration.
+The second will install the linter and the
+[Google linter configuration](https://github.com/google/eslint-config-google/blob/master/index.js).
+Feel
+free to copy the `eslintrc.js` file into your own project.
 
 ## Contributing
 

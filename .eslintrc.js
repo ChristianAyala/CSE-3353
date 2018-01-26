@@ -4,6 +4,7 @@ module.exports = {
         "ecmaVersion": 6
     },
     "rules": {
-        "no-const-assign": 2
+        "no-const-assign": 2,
+        "linebreak-style": 0
     }
 };

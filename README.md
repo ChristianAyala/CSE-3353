@@ -47,6 +47,13 @@ configured to run the correct script. For files that require some outside data
 or the package.json file, where appropriate. If a file name is used in the code,
 it will be at or near the top of the file.
 
+If the `npm start` command fails (in particular on Windows), try install server
+as a global package:
+
+```sh
+npm install -g server
+```
+
 All output will be logged to the terminal.
 
 ## Code Linting

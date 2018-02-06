@@ -1,0 +1,15 @@
+{
+  "name": "2018-26-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "more-functions.js",
+  "scripts": {
+    "start": "node ./insertion-sort.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.0.13"
+  }
+}

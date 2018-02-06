@@ -1,0 +1,12 @@
+{
+  "name": "2018-26-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "more-functions.js",
+  "scripts": {
+    "start": "node ./async-functions.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

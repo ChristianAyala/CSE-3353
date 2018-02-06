@@ -13,7 +13,7 @@
 			// to debug. You can also Add Configurations, just be sure you select
 			// Node.js: Launch program
 			// and put the correct path
-			"program": "${workspaceFolder}/2018-01-29/linkedlist.js"
+			"program": "${workspaceFolder}/2018-01-31/import-files.js"
 		}
 	]
 }
